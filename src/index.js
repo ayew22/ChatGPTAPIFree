@@ -68,7 +68,7 @@ const handleRequest = async (request, env) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${api_key}`,
+        'Authorization': `Bearer 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`,
         'User-Agent': 'curl/7.64.1',
       },
       body: JSON.stringify(requestBody),
